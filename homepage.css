@@ -1,0 +1,142 @@
+/* fontai */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Slab:wght@100;400;500&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("images/fonas.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.zolynai {
+  display: block;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  margin: auto;
+  width: 65%;
+  min-width: 300px;
+}
+/* lipdukas */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+/* meniu */
+nav {
+  display: block;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  background-color: #465a4b;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #aca16d;
+  padding: 20px;
+}
+/* meniu linkai */
+nav a {
+  color: #f5f7f6;
+  padding: 55px;
+  text-decoration: none;
+  font-family: "Roboto Slab Medium";
+  font-size: 12pt;
+}
+nav a:hover {
+  background-color: #465a4b;
+  color: #f3e2d3;
+  font-size: 15pt;
+}
+
+/* apie */
+.tekstas {
+  background-color: #f3e2d3;
+  padding-top: 10vh;
+  padding-bottom: 15vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin: 10vh 10vw;
+  margin-bottom: 0vh;
+}
+p {
+  color: #332d22;
+  font-family: "Montserrat Regular";
+  text-align: justify;
+}
+.foto img {
+  display: block;
+  margin: auto;
+  width: 50vw;
+  margin-top: -13vh;
+  margin-bottom: 10vh;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f5f7f6;
+}
+
+/* augalai */
+#augalai{
+  background-color: #465a4b;
+  margin-bottom: 10vh;
+}
+h2 {
+  display: block;
+  text-align: center;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  font-family: "Montserrat Medium";
+  font-size: 45pt;
+  color: #f3e2d3;
+  padding-top: 9vh;
+}
+.remas {
+  padding: 0vw 10vh;
+  padding-bottom: 5vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.augalo_foto {
+  flex-basis: auto;
+  width: 15vw;
+  min-width: 200px;
+  height: auto;
+  margin: 3vw 5vh;
+  text-align: center;
+}
+.augalo_foto img {
+  width: 15vw;
+  min-width: 200px;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f5f7f6;
+}
+.augalo_foto img:hover {
+  width: 18vw;
+  border-style: none;
+}
+p1 {
+  font-family: "Roboto Slab Medium";
+  font-size: 12pt;
+  color: #f5f7f6;
+}
+
+/* footer */
+.footer {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  background-color: #465a4b;
+  padding: 5px;
+}
+p2 {
+  color: #f5f7f6;
+  font-family: "Roboto Slab Medium";
+  font-size: 11pt;
+}
